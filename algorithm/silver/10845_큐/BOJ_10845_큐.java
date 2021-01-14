@@ -1,17 +1,23 @@
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.Scanner;
 public class Main{
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		LinkedList<Integer> dq = new LinkedList<Integer>();
+		ArrayList<Integer> arr1 = new ArrayList<Integer>();
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+		String test = br.readLine();
+		int itest = Integer.parseInt(test);
 		
-		Scanner sc = new Scanner(System.in);
-		
-		int test = sc.nextInt();
-		test+=1;
-		while(test !=0)
+		while(itest !=0)
 		{
-			String s = sc.nextLine();
+			String s = br.readLine();
 			String[] ss = s.split(" ");
 			
 			if(ss[0].equals("push"))
@@ -22,38 +28,38 @@ public class Main{
 			else if(ss[0].equals("pop"))
 			{
 				 if(dq.isEmpty() == true)
-					System.out.println("-1");
+					 bw.write("-1\n");
 				 else
-					 System.out.println(dq.poll());
-				
+					 bw.write(dq.poll().toString()+"\n");
 			}
 			else if( ss[0].equals("size"))
-				System.out.println(dq.size());
+				bw.write(dq.size()+"\n");
 			else if( ss[0].equals("empty"))
 			{
 				if(dq.isEmpty() == true)
-					System.out.println("1");
+					bw.write("1\n");
 				else
-					System.out.println("0");
+					bw.write("0\n");
 			}
 			else if(ss[0].equals("front"))
 			{
 				if(dq.peek() ==null)
-					System.out.println("-1");
+					bw.write("-1\n");
 				else
-					System.out.println(dq.peek());
+					bw.write(dq.peek()+"\n");
 			}
 			else if(ss[0].contentEquals("back"))
 			{
 				if(dq.isEmpty() ==true)
-					System.out.println("-1");
+					bw.write("-1\n");
 				else
-				System.out.println(dq.getLast());	
+					bw.write(dq.getLast().toString()+"\n");
 			}
-			test--;
+			itest--;
 		}
 			
-				
+		bw.flush();
+
 	}
 
 }

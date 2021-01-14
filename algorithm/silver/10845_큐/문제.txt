@@ -3,3 +3,4 @@ https://www.acmicpc.net/problem/10845
 
 LinkedList를 import하여 
 다양한 메서드 활용 하여 품
+BufferedReader 및 Writer 처음사용해봄.
