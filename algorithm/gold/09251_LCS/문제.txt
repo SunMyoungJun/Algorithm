@@ -1,0 +1,5 @@
+https://www.acmicpc.net/problem/9251
+
+
+기존에 알던  LCS 알고리즘이였으나 
+약간 다르게 기억하고있어서 헷갈렷음.
