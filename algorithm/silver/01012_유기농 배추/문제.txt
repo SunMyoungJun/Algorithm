@@ -1,0 +1,6 @@
+https://www.acmicpc.net/problem/1012
+
+재귀 알고리즘을 이용해 품.
+
+재귀 메서드 안에 조건문에서 
+해매다가 else if -> if 고쳐서 해결
