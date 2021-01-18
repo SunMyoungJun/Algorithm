@@ -1,0 +1,4 @@
+https://www.acmicpc.net/problem/10799
+
+
+스택을 이용해서 구현.
