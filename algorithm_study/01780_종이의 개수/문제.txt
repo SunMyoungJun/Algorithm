@@ -1,0 +1,5 @@
+https://www.acmicpc.net/problem/1780
+
+분할정복 알고리즘을 이용해서 품.
+
+매개변수 바뀌는거 주의
