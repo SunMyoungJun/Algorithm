@@ -1,0 +1,5 @@
+https://www.acmicpc.net/problem/2468
+
+DFS 알고리즘을 이용해서 품 .
+
+스터디 통해 친구들한테 느낀거 적용 소스 간소화.
