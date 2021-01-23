@@ -1,0 +1,5 @@
+https://www.acmicpc.net/problem/20055
+
+
+구현 / 시뮬레이션 문제 
+조건 많음.
