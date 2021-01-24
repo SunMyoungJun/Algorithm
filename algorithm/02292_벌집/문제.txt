@@ -1,0 +1,3 @@
+https://www.acmicpc.net/problem/2292
+
+수학 규칙 찾기 문제였음.
