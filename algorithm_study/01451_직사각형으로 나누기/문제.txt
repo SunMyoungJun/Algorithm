@@ -1,0 +1,5 @@
+https://www.acmicpc.net/problem/1451
+
+
+브루트포스 알고리즘을 이용해서 품. 
+max값 구할때 곱해 나가면서 int범위 넘는거 조심하자
