@@ -1,0 +1,5 @@
+https://www.acmicpc.net/problem/14891
+
+
+
+구현/시물레이션 문제였음. 무난했다.
