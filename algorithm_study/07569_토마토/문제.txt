@@ -1,0 +1,4 @@
+https://www.acmicpc.net/problem/7569
+
+BFS 알고리즘을 이용해서 품.
+큐를 사용했음.
