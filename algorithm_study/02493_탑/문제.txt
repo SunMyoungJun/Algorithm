@@ -1,0 +1,4 @@
+https://www.acmicpc.net/problem/2493
+
+
+stack 자료구조 이용해서 품.
