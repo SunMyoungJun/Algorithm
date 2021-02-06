@@ -1,0 +1,4 @@
+https://www.acmicpc.net/problem/3190
+
+구현 시물레이션 문제. 
+큐를 이용해서 쉽게 풀었음.
