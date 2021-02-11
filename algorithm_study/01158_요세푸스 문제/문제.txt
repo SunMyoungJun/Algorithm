@@ -1,0 +1,5 @@
+https://www.acmicpc.net/problem/1158
+
+
+큐를 이용한 단순 문제였으나 
+ArrayList 를 이용해서 바로 접근 후 삭제해서 시간을 줄이려 시도했고 성공함.
