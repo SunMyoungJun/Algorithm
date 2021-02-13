@@ -1,0 +1,3 @@
+https://www.acmicpc.net/problem/1759
+
+브루트포스 +조합 + 백트래킹 문제였음.
