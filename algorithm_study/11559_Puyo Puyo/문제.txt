@@ -1,0 +1,4 @@
+https://www.acmicpc.net/problem/11559
+
+DFS로 풀었으나 BFS 문제였음.
+조건 하나가 빠져서 굉장히 오래 걸린 문제.
