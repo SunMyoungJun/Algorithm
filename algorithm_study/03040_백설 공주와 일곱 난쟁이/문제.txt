@@ -1,0 +1,4 @@
+https://www.acmicpc.net/problem/3040
+
+
+브루트포스 알고리즘+조합 문제였음.
