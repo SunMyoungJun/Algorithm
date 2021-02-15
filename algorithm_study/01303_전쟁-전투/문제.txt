@@ -1,0 +1,5 @@
+https://www.acmicpc.net/problem/1303
+
+
+BFS 또는 DFS 알고리즘으로 풀수있는 문제임.
+BFS로 풀어봤던 문제임.
