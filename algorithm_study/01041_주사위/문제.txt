@@ -1,0 +1,4 @@
+https://www.acmicpc.net/problem/1041
+
+dfs 알고리즘 이용해서 품.
+long int 범위 잘생각해야함.
