@@ -1,0 +1,4 @@
+https://www.acmicpc.net/problem/2839
+
+
+그리디 알고리즘을 이용해서 품.
