@@ -1,0 +1,4 @@
+https://www.acmicpc.net/problem/2527
+
+기하학 문제였음.
+조건이 많아서 생각보다 까다로웠던 문제임.
