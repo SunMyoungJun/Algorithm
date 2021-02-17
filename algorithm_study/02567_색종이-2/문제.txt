@@ -1,0 +1,5 @@
+https://www.acmicpc.net/problem/2567
+
+
+간단한 구현 문제
+복잡하게 생각해서 다시 짠 문제임.
