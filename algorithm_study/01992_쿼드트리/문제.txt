@@ -1,0 +1,5 @@
+https://www.acmicpc.net/problem/1992
+
+
+분할 정복 알고리즘을 이용해서 품.
+빠르게 풀 수 있었던 문제
