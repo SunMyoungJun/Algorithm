@@ -1,0 +1,3 @@
+https://www.acmicpc.net/problem/1592
+
+구현 , 시물레이션 문제
