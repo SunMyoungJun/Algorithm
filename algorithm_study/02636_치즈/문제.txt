@@ -1,0 +1,6 @@
+https://www.acmicpc.net/problem/2636
+
+
+BFS , 구현, 시뮬레이션
+
+복잡하게 구상하고 짜다가 솔루션을 보고 단순하게 짰음.
