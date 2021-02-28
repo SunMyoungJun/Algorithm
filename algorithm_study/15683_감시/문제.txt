@@ -1,0 +1,4 @@
+https://www.acmicpc.net/problem/15683
+
+브루트포스 알고리즘
+구현 / 시뮬레이션
