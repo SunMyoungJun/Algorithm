@@ -1,0 +1,3 @@
+https://www.acmicpc.net/problem/1446
+
+정렬 , 부분집합
