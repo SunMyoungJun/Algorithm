@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style type="text/css">
+
+
+ul {
+	display : inline;
+
+}
+label {
+	width : 200px;
+	height : 100px;
+}
+
+.boxarray {
+	border : 2px solid red;
+}
+.boxname {
+	color: green;
+	font-weight : bold;
+}
+
+.arr1 {
+width: 150px; 
+ margin-left : 150px; 
+ float : left;
+}
+.arr1-2 {
+width : 250px; 
+margin-top : 15px; 
+float : left;
+}
+
+
+
+hr {
+border-bottom : 2px solid orange
+}
+
+
+</style>
+
+
+</head>
+<body>
+<h2 style ="color : orange ;text-shadow : 3px 3px 5px gray, 3px 3px 0 gray">Become a Member</h2>
+		<hr style ="background-color : red">
+	<div style = "width : 800px; height : 600px; margin-left : 200px;">
+	
+		
+		<fieldset>
+		<legend class="boxname">Registration Information</legend>
+			
+				<div class ="arr1">
+					<ul type="none">
+						<li><label for="email">E-Mail : </label>
+						<li><label for="pass">Password : </label>
+						<li><label for="pass">Verify Password : </label>
+					</ul>
+				</div>
+				<div class="arr1-2"> 
+					 <input type="email" name="email" class ="boxarray">
+					 <input type="password"name="pw" placeholder="At least 6 letters or numbers" class ="boxarray">  
+					 <input type="password" name="re-pw" class ="boxarray">
+				</div>
+			
+		</fieldset>
+		<fieldset>
+		<legend class="boxname">Member Information</legend>
+			<div class="arr1">
+				
+				<ul type="none">
+					<li><label for="Fname">First Name : </label>
+					<li><label for="Lname">Last Name : </label> 
+					<li><label for ="address">Address : </label>
+					<li><label for ="city">City : </label>
+					<li><label for ="state">State : </label>
+					<li><label for ="zipcode">ZIP Code : </label>
+					<li><label for ="phonenumber">Phone NUmber : </label>
+					</ul>
+				</div>
+				<div class="arr1-2">
+				<input type="text" name="Fname" class ="boxarray">
+					 <input type="text"name="Lname" class ="boxarray"> 
+					 <input type="text" name="address">
+					 <input type="text" name="city" class ="boxarray">
+					 <input type="text" name="address" class ="boxarray">
+					 <input type="text" name="zipcode" class ="boxarray">
+					 <input type="text" name="phonenumber">
+				</div>
+					
+				
+		</fieldset>
+		
+			<fieldset>
+		<legend class="boxname">Membership Information</legend>
+				<div class ="arr1">
+					<ul type="none">
+					<li><label for="membertype"> Membership Type : </label>
+					<li><label for="text">Starting Date : </label> 
+					<li><label for ="Address">Tickets for Guests : </label>		
+					</ul>
+				</div>
+				<div class="arr1-2"> 
+					<select id ="memtype" name ="memtype">
+					<option value ="Junior">Junior</option>
+					<option value ="Junior2">Junior2</option>
+					<option value ="Junior3">Junior3</option>
+					<option value ="Junior4">Junior4</option>
+					
+					</select> <br/>
+					 <input type="date"name="Lname" class ="boxarray"> <br/>
+					 <input type="number" min="1" max ="5" value="2">
+				</div>
+		</fieldset>
+
+		<fieldset>
+			<legend class="boxname">Submit Your Membership</legend>
+	
+			<Button style="margin-left : 600px">Submit</Button>
+			<Button>Reset Fields</Button>
+		</fieldset>
+	</div>
+	<hr>
+</body>
+</html>
