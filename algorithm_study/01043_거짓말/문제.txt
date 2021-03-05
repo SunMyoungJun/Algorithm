@@ -1,0 +1,3 @@
+https://www.acmicpc.net/problem/1043
+
+구현 , 시뮬레이션
