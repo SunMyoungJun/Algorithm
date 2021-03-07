@@ -1,0 +1,4 @@
+https://www.acmicpc.net/problem/1707
+
+BFS을 이용해서 품.
+솔루션 참고했음.
