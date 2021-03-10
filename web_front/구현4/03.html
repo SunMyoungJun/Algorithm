@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container mt-5 border">
+
+		<div class="d-flex flex-row-reverse">
+			<div class="p-2">
+				<a href="#">로그아웃</a>
+			</div>
+			<div class="p-2">싸피님 환영합니다.</div>
+		</div>
+
+
+		<div class="d-flex justify-content-center">
+			<div class="p-2 ">
+				<h3>SSAFY 게시판</h3>
+			</div>
+		</div>
+		
+		<button type="button" class="btn btn-primary mr-1">새글쓰기</button>
+		<button type="button" class="btn btn-info mr-1">수정</button>
+		<button type="button" class="btn btn-danger mr-1">삭제</button>
+
+
+		<table class="table table-bordered mt-3">
+			<thead>
+				<tr>
+					<th>제목</th>
+					<th colspan="5">글번호.글제목</th>
+					
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>작성자</th>
+					<td>싸피</td>
+					<th>조회수</th>
+					<td>00</td>
+					<th>작성일</th>
+					<td>0000.00.00</td>
+				</tr>
+				<tr>
+					<td rowspan="2" colspan="6">글내용</td>					
+				</tr>
+			</tbody>
+		</table>
+
+		<div class="d-flex justify-content-center mb-2">
+			<button type="button" class="btn btn-info mr-2">최신목록</button>
+			<button type="button" class="btn btn-info">이전목록</button>
+		</div>
+		
+		<div class ="row mt-5">
+		<div class="col-sm-10">
+			<div class="form-group">
+				<textarea class="form-control" rows="5" id="comment" name="text" placeholder="주제와 무관한 댓글,악플은 삭제될 수 있습니다."></textarea>
+			</div>
+		</div>
+		<div class = "col-sm-2">
+			<button type="button" class="btn btn-primary" style ="width : 130px; height : 130px">작성</button>
+		</div>
+	
+	</div>
+		
+		
+		
+		
+	</div>
+	
+	
+	
+	
+	
+	
+</body>
+</html>
