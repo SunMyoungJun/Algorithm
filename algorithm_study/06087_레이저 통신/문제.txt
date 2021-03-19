@@ -1,0 +1,6 @@
+https://www.acmicpc.net/problem/6087
+
+BFS / 우선순위 큐
+
+
+그냥 큐로 짰을 때  440ms , 우선순위 큐로 짰을 때 172ms 로 2배이상 빠름.
