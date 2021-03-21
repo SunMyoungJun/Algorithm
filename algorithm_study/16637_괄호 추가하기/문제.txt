@@ -1,0 +1,4 @@
+https://www.acmicpc.net/problem/16637
+
+
+브루트포스 알고리즘
