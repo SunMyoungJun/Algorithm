@@ -1,0 +1,4 @@
+https://www.acmicpc.net/problem/2407
+
+다이나믹 프로그래밍
+조합론 , 큰 수 연산
