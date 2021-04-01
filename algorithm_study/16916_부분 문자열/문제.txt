@@ -1,0 +1,3 @@
+https://www.acmicpc.net/problem/16916
+
+KMP 알고리즘
