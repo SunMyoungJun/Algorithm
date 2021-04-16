@@ -1,0 +1,4 @@
+https://www.acmicpc.net/problem/18500
+
+
+BFS / 구현 / 시뮬레이션
