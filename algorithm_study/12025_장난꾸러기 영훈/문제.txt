@@ -1,0 +1,3 @@
+https://www.acmicpc.net/problem/12025
+
+수학 / 비트마스킹
