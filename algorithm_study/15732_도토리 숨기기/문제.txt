@@ -1,0 +1,3 @@
+https://www.acmicpc.net/problem/15732
+
+이분 탐색
