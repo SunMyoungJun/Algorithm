@@ -1,0 +1,3 @@
+https://www.acmicpc.net/problem/2473
+
+정렬, 이분 탐색, 투 포인터
