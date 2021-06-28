@@ -1,0 +1,3 @@
+https://www.acmicpc.net/problem/1766
+
+우선순위 큐, 위상 정렬
