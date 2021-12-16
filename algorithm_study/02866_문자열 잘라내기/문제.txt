@@ -1,0 +1,4 @@
+https://www.acmicpc.net/problem/2866
+
+
+이분탐색
