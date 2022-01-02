@@ -1,0 +1,4 @@
+https://www.acmicpc.net/problem/8980
+
+정렬
+그리디 알고리즘
