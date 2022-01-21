@@ -1,0 +1,3 @@
+https://www.acmicpc.net/problem/1339
+
+그리디 알고리즘
