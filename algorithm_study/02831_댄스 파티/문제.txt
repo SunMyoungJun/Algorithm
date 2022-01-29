@@ -1,0 +1,5 @@
+https://www.acmicpc.net/problem/2831
+
+그리디 알고리즘
+정렬
+투 포인터
