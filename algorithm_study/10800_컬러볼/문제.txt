@@ -1,0 +1,3 @@
+https://www.acmicpc.net/problem/10800
+
+정렬 / 누적합
