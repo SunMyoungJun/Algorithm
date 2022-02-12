@@ -1,0 +1,3 @@
+https://www.acmicpc.net/problem/17142
+
+브루트포스 / BFS
