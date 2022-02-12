@@ -1,0 +1,3 @@
+https://www.acmicpc.net/problem/1715
+
+그리디 / 우선순위 큐
