@@ -1,0 +1,5 @@
+https://programmers.co.kr/learn/courses/30/lessons/92343
+
+완전탐색
+
+check 3차원 배열로 루트 노드 ~ 리프 노트 탐색하기
