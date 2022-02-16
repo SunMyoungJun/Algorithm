@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-class Solution {
+class Solution { 
 	ArrayList<Integer>[] arr1;
 	boolean[][][] check;
 	int max=0;
