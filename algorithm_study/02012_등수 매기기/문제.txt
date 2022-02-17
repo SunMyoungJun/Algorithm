@@ -1,0 +1,3 @@
+https://www.acmicpc.net/problem/2012
+
+정렬 / 그리디 알고리즘
