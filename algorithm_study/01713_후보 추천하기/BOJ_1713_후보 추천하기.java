@@ -1,75 +1,89 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.Comparator;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.StringTokenizer;
 
-public class Main{
-	static int[][] arr1;
-	public static void main(String[] args) throws IOException {
+public class Main {
+
+	public static void main(String[] args) throws IOException	 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int N = Integer.parseInt(br.readLine());
-		int W = Integer.parseInt(br.readLine());
+		int A = Integer.parseInt(br.readLine());
+		int cnt=0,num=0,min1=0,min2=0,idx=0;
 		StringTokenizer st = new StringTokenizer(br.readLine());
-		arr1 = new int[N][3];
-		int cnt=0,num=0,cnt2=0;
-		for(int i=0;i<W;i++) {
-			boolean flag = false;
+
+		boolean[] check = new boolean[101];
+		int[][] student = new int[101][2]; // 0 : 추천 횟수 , 1 : 최신 
+
+
+		for(int i=1; i<A+1; i++) {
 			num = Integer.parseInt(st.nextToken());
-			for(int j=0;j<cnt;j++) {
-				if(arr1[j][0] == num) {
-					arr1[j][1]++;
-					flag = true;		
-					sorting();	
-				}
+			if(check[num] == true) {
+				student[num][0]++;
 			}
-			
-			if(!flag) {
-				if(cnt < N) {
-					arr1[cnt][0] = num;
-					arr1[cnt][1] = 1;
-					arr1[cnt++][2] = cnt2++;
-					
-					if(cnt == N) {
-						sorting();
+			else if(cnt < N) {
+				cnt++;
+				check[num] = true;
+				student[num][0]++;
+				student[num][1] = i;
+			}
+			else {
+				min1 = 1001;
+				min2 = A+1;
+				idx=0;
+				for(int j=1; j<101; j++) {
+					if(check[j] == false) {
+						continue;
 					}
-					continue;
+
+
+					if(min1 > student[j][0]) {
+						min1 = student[j][0];
+						min2 = student[j][1];
+						idx= j;
+					}
+					else if(min1 == student[j][0]  && min2 > student[j][1]) {
+						min1 = student[j][0];
+						min2 = student[j][1];
+						idx= j;
+					}
 				}
-				arr1[N-1][0] = num;
-				arr1[N-1][1] = 1;
-				arr1[N-1][2] = cnt2++;
-				sorting();		
-			}		
-		}
-		
-		Arrays.sort(arr1,new Comparator<int[]>() {
-			@Override
-			public int compare(int[] o1, int[] o2) {
-				return (o1[0] > o2[0]) ? 1: -1;
+
+				check[num] = true;
+				check[idx] = false;
+				student[idx][0] =0;
+				student[idx][1] = 0;
+				student[num][0]++;
+				student[num][1] = i;
+
 			}
-		});
-		
-		
-		StringBuilder sb = new StringBuilder();
-		for(int i=0;i<cnt;i++) {
-			sb.append(arr1[i][0]).append(" ");
+
 		}
+
+		ArrayList<Integer> arr1 = new ArrayList<>();
+
+
+		for(int i=1; i<101; i++) {
+			if(check[i] == true) {
+				arr1.add(i);
+			}
+		}
+
+		Collections.sort(arr1);
+
+		int size = arr1.size();
+		StringBuilder sb = new StringBuilder();
+		for(int i=0; i<size; i++) {
+			sb.append(arr1.get(i)).append(" ");
+		}
+
+
 		System.out.println(sb.toString());
-		
+
+
+
 	}
 
-	static void sorting() {
-		Arrays.sort(arr1,new Comparator<int[]>() {
-			@Override
-			public int compare(int[] o1, int[] o2) {
-				if(o1[1] == o2[1]) {
-					return (o2[2]>o1[2]) ? 1: -1;
-				}
-				else {
-					return (o2[1]>o1[1]) ? 1: -1;
-				}
-			}
-		});
-	}
 }

@@ -1,4 +1,3 @@
 https://www.acmicpc.net/problem/1713
 
 구현 / 시뮬레이션
-다양한 조건에서 따른 정렬 사용
