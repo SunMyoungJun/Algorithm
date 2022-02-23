@@ -1,0 +1,3 @@
+https://www.acmicpc.net/problem/17086
+
+브루트포스 알고리즘 / BFS
