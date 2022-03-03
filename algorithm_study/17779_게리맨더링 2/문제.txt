@@ -1,0 +1,3 @@
+https://www.acmicpc.net/problem/17779
+
+구현 / 시뮬레이션 / 브루트포스 알고리즘
