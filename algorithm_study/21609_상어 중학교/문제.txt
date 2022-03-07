@@ -1,0 +1,3 @@
+https://www.acmicpc.net/problem/21609
+
+구현 / 시뮬레이션 / BFS 
