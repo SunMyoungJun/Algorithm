@@ -1,0 +1,3 @@
+https://programmers.co.kr/learn/courses/30/lessons/42627#
+
+우선순위 큐 / 스케쥴링(SJF)
