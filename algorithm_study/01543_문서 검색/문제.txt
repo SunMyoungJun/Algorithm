@@ -1,0 +1,3 @@
+https://www.acmicpc.net/problem/1543
+
+문자열 / 브루트포스 알고리즘
