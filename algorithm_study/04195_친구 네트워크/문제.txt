@@ -1,0 +1,3 @@
+https://www.acmicpc.net/problem/4195
+
+분리 집합 / 해시
