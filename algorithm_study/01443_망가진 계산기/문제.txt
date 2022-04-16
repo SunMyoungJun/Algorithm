@@ -1,0 +1,3 @@
+https://www.acmicpc.net/problem/1443
+
+브루트포스 / 백트래킹
