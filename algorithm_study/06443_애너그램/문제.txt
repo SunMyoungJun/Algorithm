@@ -1,0 +1,3 @@
+https://www.acmicpc.net/problem/6443
+
+수학 / 문자열 / 조합론 / 백트래킹
