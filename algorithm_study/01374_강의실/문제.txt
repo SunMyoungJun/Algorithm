@@ -1,0 +1,3 @@
+https://www.acmicpc.net/problem/1374
+
+우선순위 큐 / 그리디 알고리즘 / 정렬
