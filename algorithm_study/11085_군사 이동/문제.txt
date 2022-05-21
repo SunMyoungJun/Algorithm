@@ -1,0 +1,3 @@
+https://www.acmicpc.net/problem/11085
+
+분리 집합 / 그래프 이론
